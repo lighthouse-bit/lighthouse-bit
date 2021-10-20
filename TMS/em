@@ -1,0 +1,1143 @@
+<thead scope="col">
+                        <?php
+                            include("classes/connect.php");
+
+                            $query = "select * from time_frame";
+                            $DB = new Database();
+                            $display = $DB->read($query);
+                            foreach ($display as $key) {
+                        ?>
+                        <tr>
+                            <td><?php echo $key['start'] . "-" . $key['end']; ?></td>
+                        </tr>
+                        <?php } ?>
+                </thead>
+
+
+
+
+
+                <tr>
+                                <th scope="row">Tuesday</th>
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                
+                                
+                            </tr>
+                            <tr>
+                                <th scope="row">Wednesday</th>
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                
+                                
+                            </tr>
+                            <tr>
+                                <th scope="row">Thursday</th>
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                
+                                
+                            </tr>
+                            <tr>
+                                <th scope="row">Friday</th>
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <select name="staff[]" id="">
+                                        <option value="">Select staff</option>
+                                        <?php
+                                    
+                                            foreach ($show as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['firstname'] . " " . $key['lastname']?></option>                        
+                                        <?php } ?>                  
+                                        
+                                        </select><br><br>
+                                    <select name="subject[]" id="">
+                                        <option value="">Select subject</option>
+                                        <?php
+                                    
+                                            foreach ($see as $key) {
+                                            ?>
+                                                <option value="<?php echo $key['id'];?>"><?php echo $key['subject_title'] ?></option>                        
+                                        <?php } ?>                             
+                                    
+                                    </select>
+                                </td>
+
+                                
+                                
+                            </tr>
