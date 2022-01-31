@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+
+.box{
+    
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box input{
+    padding: 10px;
+    outline: none;
+    border: none;
+    background: rgb(184, 221, 198);
+}
+
+.box h2{
+    font-weight: 500;
+    color: lightslategrey;
+}
+
+.box h2{
+    font-weight: 500;
+    
+}
+
+.box button{
+    padding: 10px;
+    background: rgb(81, 179, 102);
+    border: none;
+    padding-bottom: 10px;
+}
+
+.box select{
+    padding: 10px;
+    background: inherit;
+}
+.box label{
+    font-weight: 500;
+}
+
+.box a{
+    text-decoration: none;
+    color: green;
+}
+
+.box button:hover{
+    cursor: pointer;
+}
