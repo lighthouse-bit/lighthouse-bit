@@ -1,0 +1,17 @@
+{
+    "name": "Ultimate9ja",
+    "short_name": "Ultimate9ja",
+    "start_url": "/..",
+    
+    "background_color": "#6dcdb1",
+    "theme_color" : "#009578",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "images/log.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
